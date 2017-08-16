@@ -19,7 +19,7 @@
   }
 </script>
 <style lang="scss"  rel="stylesheet/scss">
-  @import "assets/common";
+  @import "src/assets/style/common";
   #app{
     height: 100%;
   }

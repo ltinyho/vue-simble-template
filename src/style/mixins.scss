@@ -1,0 +1,38 @@
+// 主色
+$primaryBlue: #20a0ff;
+$lightBule: #58b7ff;
+$darkBule: #1d8ce0;
+
+// 辅助色
+$successColor: #13ce66;
+$warningColor: #f7ba2a;
+$dangerColor: #ff4949;
+$orderClolor: #ff3131; // 下单
+
+// 中性色
+
+$black: #1f2d3d;
+$lightBlack: #324057;
+$extraLightBlack: #475669;
+
+$gary: #d3dce6;
+$lightGray: #e5e9f2;
+$extraLightXGray: #eff2f7;
+
+$borderColor: #ececec;
+// 背景色
+$primaryBgColor: #f3f5f7;
+
+
+@mixin border($direct:bottom,$width:1px,$type:solid, $color:$borderColor){
+  border-#{$direct}: $width $type $color;
+}
+
+
+@mixin overflow-text($rowNum:1){
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  -webkit-line-clamp:$rowNum;
+  overflow: hidden;
+}
+

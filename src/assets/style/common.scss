@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import "./utils";
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+}
+html {
+  background-color: #eee;
+}
+body {
+  position: relative;
+  margin: 0 auto;
+  max-width: 640px;
+  font-size: 14px;
+  color: #333;
+  font-family: "Microsoft YaHei", "SimSun";
+}
+header, footer {
+  max-width: 640px;
+}
+a {
+  color: #337ab7;
+  background-color: transparent;
+  cursor: auto;
+}
+a:link,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
