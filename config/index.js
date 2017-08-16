@@ -19,13 +19,8 @@ var build = {
   // Set to `true` or `false` to always turn it on or off
   bundleAnalyzerReport: process.env.npm_config_report
 }
-var buildTest = Object.assign({},build,{
-  index: path.resolve(__dirname, '../disttest/index.html'),
-  assetsRoot: path.resolve(__dirname, '../disttest'),
-})
 module.exports = {
   build: build,
-  buildTest: buildTest,
   dev: {
     env: require('./dev.env'),
     port: 7070,

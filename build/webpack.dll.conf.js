@@ -9,13 +9,9 @@ module.exports        = {
       'vue/dist/vue.esm.js',
       'vue-router',
       'vuex',
-      'jquery',
-      'weui.js',
-      'video.js',
       'babel-polyfill',
       'resetcss',
       'font-awesome/css/font-awesome.min.css',
-      'video.js/dist/video-js.min.css',
       'element-ui',
       'element-ui/lib/theme-default/index.css',
     ]
